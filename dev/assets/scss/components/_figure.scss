@@ -1,0 +1,12 @@
+.wrapper{
+    figure.bg{
+        width: 100%;
+        height: 100%;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        @media (max-width:$md-width){
+            height: 467px !important;
+        }
+    }
+}

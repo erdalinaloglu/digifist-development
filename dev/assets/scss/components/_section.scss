@@ -1,0 +1,49 @@
+.wrapper{
+    section.typo{
+        padding:96px 0 92px 0;
+        @media (max-width:$md-width){
+            padding:29px 0 65px 0;
+            margin-top: -218px;
+        }
+    }
+    &__title{
+        padding:0 106px 68px 90px;
+        @media (max-width:$lg-width){
+            padding:0 60px 68px 40px;
+        }
+        @media (max-width:$md-width){
+            padding:0 24px 32px 24px;
+        }
+        h1{
+            font-family: $itc;
+            @include font-size(31.25,40.62);
+            color:$black;
+            margin-bottom: 12px;
+            @media (max-width:$md-width){
+                @include font-size(20,26);
+                color:$white;
+            }
+        }
+        p{
+            font-family: $avenirlight;
+            @include font-size(16,25.6);
+            color:#666666;
+            font-weight: 400;
+            margin-bottom: 32px;
+            @media (max-width:$md-width){
+                display: none;
+            }
+        }
+        a{
+            font-family: $avenirbold;
+            @include font-size(12.8,17.48);
+            color:$black;
+            padding-bottom: 5px;
+            border-bottom: 1px solid $black;
+            @media (max-width:$md-width){
+                color:$white;
+                border-color: $white;
+            }
+        }
+    }
+}

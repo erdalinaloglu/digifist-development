@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'ITC_Avant_Garde_Gothic_Pro';
+    src: url('#{$fonts}/ITCAvantGardePro-Bold.eot');
+    src: url('#{$fonts}/ITCAvantGardePro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('#{$fonts}/ITCAvantGardePro-Bold.woff2') format('woff2'),
+         url('#{$fonts}/ITCAvantGardePro-Bold.woff') format('woff'),
+         url('#{$fonts}/ITCAvantGardePro-Bold.ttf')  format('truetype'),
+         url('#{$fonts}/ITCAvantGardePro-Bold.svg#ITC Avant Garde Gothic Pro') format('svg');
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('#{$fonts}/Avenir-Roman-12.eot');
+    src: url('#{$fonts}/Avenir-Roman-12.eot?#iefix') format('embedded-opentype'),
+         url('#{$fonts}/Avenir-Roman-12.woff2') format('woff2'),
+         url('#{$fonts}/Avenir-Roman-12.woff') format('woff'),
+         url('#{$fonts}/Avenir-Roman-12.ttf')  format('truetype'),
+         url('#{$fonts}/Avenir-Roman-12.svg#Avenir') format('svg');
+}
+@font-face {
+    font-family: 'Avenir_Light';
+    src: url('#{$fonts}/Avenir-Light-07.eot');
+    src: url('#{$fonts}/Avenir-Light-07.eot?#iefix') format('embedded-opentype'),
+         url('#{$fonts}/Avenir-Light-07.woff2') format('woff2'),
+         url('#{$fonts}/Avenir-Light-07.woff') format('woff'),
+         url('#{$fonts}/Avenir-Light-07.ttf')  format('truetype'),
+         url('#{$fonts}/Avenir-Light-07.svg#Avenir Light') format('svg');
+}
+@font-face {
+    font-family: 'Avenir_Bold';
+    src: url('#{$fonts}/Avenir-Heavy-05.eot');
+    src: url('#{$fonts}/Avenir-Heavy-05.eot?#iefix') format('embedded-opentype'),
+         url('#{$fonts}/Avenir-Heavy-05.woff2') format('woff2'),
+         url('#{$fonts}/Avenir-Heavy-05.woff') format('woff'),
+         url('#{$fonts}/Avenir-Heavy-05.ttf')  format('truetype'),
+         url('#{$fonts}/Avenir-Heavy-05.svg#Avenir Heavy') format('svg');
+}
+@font-face {
+    font-family: 'Avenir_Medium';
+    src: url('#{$fonts}/Avenir-Medium-09.eot');
+    src: url('#{$fonts}/Avenir-Medium-09.eot?#iefix') format('embedded-opentype'),
+         url('#{$fonts}/Avenir-Medium-09.woff2') format('woff2'),
+         url('#{$fonts}/Avenir-Medium-09.woff') format('woff'),
+         url('#{$fonts}/Avenir-Medium-09.ttf')  format('truetype'),
+         url('#{$fonts}/Avenir-Medium-09.svg#Avenir Medium') format('svg');
+}

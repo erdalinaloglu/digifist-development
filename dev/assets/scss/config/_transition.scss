@@ -1,0 +1,15 @@
+@mixin transition_e($erd...) {
+  -webkit-transition: $erd;
+  -moz-transition: $erd;
+  -ms-transition: $erd;
+  -o-transition: $erd;
+  transition: $erd;
+}
+
+@mixin transition{
+-webkit-transition: .4s ease-in-out;
+-moz-transition: .4s ease-in-out;
+-ms-transition: .4s ease-in-out;
+-o-transition: .4s ease-in-out;
+transition: .4s ease-in-out;
+}

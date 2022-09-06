@@ -1,0 +1,10 @@
+// Font sizes
+@mixin font-size($font-size, $line-height : normal){
+  font-size: #{$font-size / 10}rem;
+
+  @if ($line-height == normal){
+    $line-height: map-get($lineHeights, $font-size);
+  }
+
+  line-height: #{$line-height / 10}rem;
+}

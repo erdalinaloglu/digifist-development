@@ -1,0 +1,43 @@
+.wrapper{
+    .container-fluid{
+        > .row{
+            > div{
+                padding:0;
+            }
+        }
+    }
+    &__products{
+        padding-left: 90px;
+        padding-right: 100px;
+        overflow: hidden;
+        @media (max-width:$lg-width){
+            padding-left: 40px;
+            padding-right: 60px;
+        }
+        @media (max-width:$md-width){
+            padding-left: 24px;
+            padding-right: 28px;
+        }
+        .swiper{
+            overflow: visible;
+            &-button-next{
+                background: url(#{$images}/content/arrow.svg) no-repeat center;
+                border:2px solid #d8d7d7;
+                width: 40px;
+                height: 40px;
+                right: -62px;
+                opacity: 1;
+                margin-top: -50px;
+                @media (max-width:$lg-width){
+                    right: -50px;
+                }
+                @media (max-width:$md-width){
+                    display: none;
+                }
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+}
