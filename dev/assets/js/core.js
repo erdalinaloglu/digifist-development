@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
     function resize(){
-        $('.wrapper').height($(window).height());
-        $('.wrapper figure.bg').height($(window).height());
+        $('.wrapper').css('min-height',$(window).height());
+        $('.wrapper figure.bg').css('min-height',$(window).height());
     }
 
     resize();
